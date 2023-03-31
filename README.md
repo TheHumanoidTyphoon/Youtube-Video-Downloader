@@ -1,5 +1,5 @@
 # YouTube Downloader
-A Python class that allows users to download YouTube videos. The class can download both video and audio streams of a video, and provides a progress bar for video downloads.
+This Python class enables users to download videos from YouTube, providing access to both audio and video streams. Additionally, it offers a convenient progress bar for monitoring video downloads. Whether you need to download an entire video or just the audio, this class simplifies the process and makes it more accessible for developers looking to incorporate video downloading capabilities into their projects.
 
 ## Installation
 This program requires Python 3.x and the following packages:
