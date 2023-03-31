@@ -4,31 +4,38 @@ A Python class that allows users to download YouTube videos. The class can downl
 ## Installation
 This program requires Python 3.x and the following packages:
 
-- pytube
-- tqdm
-- rich
+- `pytube`
+- `tqdm`
+- `rich` 
+
 To install the packages, run the following command in your terminal:
 ``` python
 pip install pytube tqdm rich
 ```
 
 ## Usage
-1. Import the YouTubeDownloader class from the module:
+1. Import the `YouTubeDownloader` class from the module:
+```python
 from youtube_downloader import YouTubeDownloader
+```
 
-2. Create an instance of the YouTubeDownloader class by passing in a list of video URLs:
+2. Create an instance of the `YouTubeDownloader` class by passing in a list of video URLs:
+```python
 downloader = YouTubeDownloader(["https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.youtube.com/watch?v=Kp7eSUU9oy8"])
+```
 
-3. Call the download_videos() method to download the videos:
+3. Call the `download_videos()` method to download the videos:
+```python
 downloader.download_videos()
+```
 
 When prompted, you can choose to download only the audio portion of a video. The program will display available audio and video streams and allow you to select the desired stream to download. The video download will be displayed with a progress bar.
 
 ## Example
 
+```python
 from youtube_downloader import YouTubeDownloader
 
-```python
 # Example video URLs
 video_urls = [
     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
